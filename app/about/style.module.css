@@ -1,0 +1,13 @@
+.section {
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 18px;
+  color: gainsboro;
+}

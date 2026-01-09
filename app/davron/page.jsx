@@ -1,11 +1,12 @@
-import Navbar from "@/components/Navbar";
-import React from "react";
+import st from "./style.module.css";
 
 function Page() {
   return (
-    <div>
-      <Navbar />
-      <h2>Davron page</h2>
+    <div className={st.section}>
+      <h2 className={st.title}>Davron page</h2>
+      <p className={st.description}>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
     </div>
   );
 }

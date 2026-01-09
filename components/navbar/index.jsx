@@ -1,11 +1,11 @@
 import Link from "next/link";
-import React from "react";
+import st from "./style.module.css";
 
 function Navbar() {
   return (
-    <nav>
+    <nav className={st.navbar}>
       <h2>Logo</h2>
-      <ul>
+      <ul className={st.list}>
         <li>
           <Link href={"/"}>home</Link>
         </li>
